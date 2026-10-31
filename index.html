@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivaram | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+<header class="header">
+    <nav class="nav">
+        <a href="#home" class="logo">dev<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle">
+            <i data-lucide="menu"></i>
+        </button>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <button class="theme-toggle" id="themeToggle">
+            <i data-lucide="sun"></i>
+        </button>
+    </nav>
+</header>
+
+<main>
+<section class="hero container" id="home">
+
+    <div class="hero-content">
+        <div class="availability">
+            <span></span> OPEN TO OPPORTUNITIES
+        </div>
+
+        <p class="eyebrow">HELLO, I'M</p>
+
+        <h1>Shivaram <span>Pulluru</span></h1>
+
+        <h2>I build <span id="typingText"></span><span class="cursor">|</span></h2>
+
+        <p class="description">
+            A BCA student and aspiring Full-Stack Developer
+            passionate about building responsive websites
+            and useful web applications.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn primary">Explore Projects ↗</a>
+            <a href="#contact" class="btn secondary">Contact Me</a>
+        </div>
+
+        <div class="social-links">
+            <a href="https://github.com/" target="_blank"><i data-lucide="github"></i></a>
+            <a href="https://linkedin.com/" target="_blank"><i data-lucide="linkedin"></i></a>
+            <a href="mailto:your.email@example.com"><i data-lucide="mail"></i></a>
+        </div>
+    </div>
+
+    <div class="hero-visual">
+        <div class="code-card">
+            <div class="code-header">
+                <span></span><span></span><span></span>
+                <small>developer.js</small>
+            </div>
+
+            <pre>
+<span class="purple">const</span> developer = {
+  name: <span class="green">"Shivaram"</span>,
+  role: <span class="green">"Full Stack Developer"</span>,
+  skills: [
+    <span class="green">"JavaScript"</span>,
+    <span class="green">"Node.js"</span>,
+    <span class="green">"MongoDB"</span>
+  ],
+  learning: <span class="orange">true</span>,
+  build: () => <span class="green">"Ideas into reality"</span>
+};
+            </pre>
+
+            <div class="code-footer">
+                <span></span> Always learning. Always building.
+            </div>
+        </div>
+
+        <div class="floating-chip chip-one">⚡ Clean Code</div>
+        <div class="floating-chip chip-two">✨ Creative Solutions</div>
+    </div>
+
+    <a href="#about" class="scroll-cue">↓ Scroll to explore</a>
+</section>
+
+<section class="section container" id="about">
+    <div class="section-heading reveal">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>About <span>Me</span></h2>
+    </div>
+
+    <div class="about-grid">
+        <div class="about-text reveal">
+            <h3>I'm an aspiring Full-Stack Developer.</h3>
+            <p>
+                I am currently pursuing Bachelor of Computer Applications
+                and developing my skills in frontend and backend technologies.
+            </p>
+            <p>
+                I enjoy creating modern websites, solving programming
+                problems and developing applications that solve real-world needs.
+            </p>
+            <p>
+                My goal is to become a professional software developer
+                and contribute to innovative technology projects.
+            </p>
+        </div>
+
+        <div class="about-facts reveal">
+            <div class="fact">
+                <i data-lucide="graduation-cap"></i>
+                <div>
+                    <strong>BCA Student</strong>
+                    <small>Expected graduation: 2027</small>
+                </div>
+            </div>
+
+            <div class="fact">
+                <i data-lucide="code"></i>
+                <div>
+                    <strong>Full-Stack Developer</strong>
+                    <small>Frontend & Backend</small>
+                </div>
+            </div>
+
+            <div class="fact">
+                <i data-lucide="map-pin"></i>
+                <div>
+                    <strong>India</strong>
+                    <small>Open to opportunities</small>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section container" id="skills">
+    <div class="section-heading reveal">
+        <p class="eyebrow">MY TECHNOLOGIES</p>
+        <h2>Technical <span>Skills</span></h2>
+    </div>
+
+    <div class="skills-grid">
+        <div class="skill-card reveal">
+            <i data-lucide="monitor"></i>
+            <h3>Frontend</h3>
+            <div class="tags">
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>JavaScript</span>
+            </div>
+        </div>
+
+        <div class="skill-card reveal">
+            <i data-lucide="server"></i>
+            <h3>Backend</h3>
+            <div class="tags">
+                <span>Node.js</span>
+                <span>Express.js</span>
+                <span>Java</span>
+                <span>Python</span>
+            </div>
+        </div>
+
+        <div class="skill-card reveal">
+            <i data-lucide="database"></i>
+            <h3>Databases</h3>
+            <div class="tags">
+                <span>MongoDB</span>
+                <span>MySQL</span>
+            </div>
+        </div>
+
+        <div class="skill-card reveal">
+            <i data-lucide="git-branch"></i>
+            <h3>Tools</h3>
+            <div class="tags">
+                <span>Git</span>
+                <span>GitHub</span>
+                <span>REST APIs</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section container" id="projects">
+    <div class="section-heading reveal">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Featured <span>Projects</span></h2>
+    </div>
+
+    <div class="projects-grid">
+
+        <article class="project-card reveal">
+            <div class="project-image project-one">
+                <i data-lucide="plane"></i>
+                <span>01 / WEB APPLICATION</span>
+            </div>
+
+            <div class="project-content">
+                <h3>Travel Booking Website</h3>
+                <p>
+                    A responsive travel booking website concept
+                    with destination browsing and an interactive interface.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="https://github.com/" target="_blank">
+                    View Project ↗
+                </a>
+            </div>
+        </article>
+
+        <article class="project-card reveal">
+            <div class="project-image project-two">
+                <i data-lucide="user-round"></i>
+                <span>02 / Ecommerce</span>
+            </div>
+
+            <div class="project-content">
+                <h3>Ecommerce Platform</h3>
+                <p>
+                    An animated developer portfolio showcasing
+                    my skills, projects, education and contact details.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="https://github.com/" target="_blank">
+                    View Project ↗
+                </a>
+            </div>
+        </article>
+
+        <article class="project-card reveal">
+            <div class="project-image project-three">
+                <i data-lucide="tractor"></i>
+                <span>03 / BUSINESS WEBSITE</span>
+            </div>
+
+            <div class="project-content">
+                <h3>Brokerage website</h3>
+                <p>
+                    An interactive music streaming website concept
+                    with a modern design and user-friendly interface.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a href="https://github.com/" target="_blank">
+                    View Project ↗
+                </a>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section class="section container" id="education">
+    <div class="section-heading reveal">
+        <p class="eyebrow">MY JOURNEY</p>
+        <h2>Education <span>& Learning</span></h2>
+    </div>
+
+    <div class="timeline">
+        <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <small>2025 – 2027</small>
+            <h3>Bachelor of Computer Applications</h3>
+            <p>Shri Hari Degree College (Autonomous)</p>
+            <p>Affiliated with Yogi Vemana University</p>
+        </div>
+
+        <div class="timeline-item reveal">
+            <span class="timeline-dot"></span>
+            <small>Ongoing</small>
+            <h3>Full-Stack Development</h3>
+            <p>
+                Learning JavaScript, Node.js, Express,
+                MongoDB, Java and programming fundamentals.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="section container" id="contact">
+    <div class="contact-box reveal">
+        <p class="eyebrow">LET'S CONNECT</p>
+        <h2>Have an opportunity? <span>Let's talk.</span></h2>
+        <p>
+            I'm interested in internships, entry-level developer roles
+            and opportunities to learn and contribute.
+        </p>
+
+        <a href="mailto:your.email@example.com" class="btn primary">
+            Send me an email ↗
+        </a>
+
+        <div class="contact-details">
+            <span><i data-lucide="mail"></i> your.email@example.com</span>
+            <span><i data-lucide="map-pin"></i> India</span>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="footer container">
+    <a href="#home" class="logo">dev<span>.</span></a>
+    <p>Designed and developed with HTML, CSS & JavaScript.</p>
+    <a href="#home">Back to top ↑</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
